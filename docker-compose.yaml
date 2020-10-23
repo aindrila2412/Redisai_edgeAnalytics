@@ -39,7 +39,9 @@ services:
       - 9201:9201
     command: ['-redis-address', 'redisedge:6379', '-web.listen-address', '0.0.0.0:9201']
   grafana:
-    build: ./grafana
+    image: ajeetraina/grafana-redisedge
+    environment:
+      - GF_INSTALL_PLUGINS=redis-datasource
     depends_on:
       - prometheus
     ports:
