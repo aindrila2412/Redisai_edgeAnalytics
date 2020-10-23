@@ -3,7 +3,7 @@
 [![Forum](https://img.shields.io/badge/Forum-RedisGears-blue)](https://forum.redislabs.com/c/modules/redisgears)
 [![Gitter](https://badges.gitter.im/RedisLabs/RedisGears.svg)](https://gitter.im/RedisLabs/RedisGears?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana ~ "Inside Docker container"
+# Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
 
 An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people).
 
