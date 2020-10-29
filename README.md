@@ -8,7 +8,7 @@
 An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people).
 
 
-![demo](grafana_demo.jpg)
+![demo](https://github.com/collabnix/Redisai_edgeAnalytics/blob/main/images/grafana_demo.png)
 
 ## Overview
 
