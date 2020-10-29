@@ -41,7 +41,7 @@ services:
   grafana:
     image: ajeetraina/grafana-redisedge
     environment:
-      - GF_INSTALL_PLUGINS=redis-datasource
+      - GF_INSTALL_PLUGINS=redis-app
     depends_on:
       - prometheus
     ports:
